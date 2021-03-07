@@ -1,0 +1,56 @@
+/* general structural properties for general objects */
+.container {
+    display: flex;
+    border: 3px solid black;
+}
+a.panel {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* positioning for specific elements */
+#logo {
+    flex-direction: row;
+    position: absolute;
+    left: 5%;
+    top:10px;
+    width: 30%;
+}
+#splash {
+    flex-direction: row;
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    width: 50%;
+    align-items: center;
+    justify-content: left;
+}
+#horizontal_bar {
+    flex-direction: row;
+    position: absolute;
+    left: 20%;
+    top: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#vertical_bar {
+    flex-direction: column;
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+#page_content {
+    flex-direction: column;
+    position: absolute;
+    left: 20%;
+    top: 160px;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
